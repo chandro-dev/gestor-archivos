@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    background-color: #fff;
+  }
+
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .form-group{
+    padding: 40px;
+  }
+
+  .form-group label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50%;
+        background-color: #f0f0f0;
+      }
+      .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10%;
+        background-color: #fff;
+      }body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #f0f0f0;
+      }
+    
+      .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10%;
+        background-color: #fff;
+      }
+    
+      .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+
+      }
+    
+      .form-group{
+        padding: 20px;
+      }
+    
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+    
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+    
+      .form-group button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+  }
