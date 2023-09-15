@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mi-mongo-container
+    volumes:
+      - C:\Users\alejandro\OneDrive\Documentos\Universiadad_2023-2\proyectos-propios\mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+  mysql:
+    image: mysql:latest
+    container_name: mi-mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: tu_contraseña
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - C:\Users\alejandro\OneDrive\Documentos\Universiadad_2023-2\proyectos-propios\mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+volumes:
+  mi-mongo-data:
+  mi-mysql-data:
