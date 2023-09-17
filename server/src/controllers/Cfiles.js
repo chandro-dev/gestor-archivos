@@ -4,7 +4,7 @@ import db from '../db/mongoose.js';
 import fs from 'fs';
 import {getShare} from '../controllers/Cshare.js';
 let _imagen={};
-export const path=`C:/Users/alejandro/OneDrive/Documentos/Universiadad_2023-2/proyectos-propios/servicio de gestion de archivos/server/src/`;
+export const path=`C:/Users/luis.carretero_bluet/Desktop/procts/gestor-archivos/gestor-archivos/server/src/`;
 
   const storage = multer.diskStorage(
     {
